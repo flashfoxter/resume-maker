@@ -1,0 +1,163 @@
+body{
+    background-color: #ff5050;
+}
+
+h1 {
+    margin-bottom: 40px
+}
+
+label {
+    color: #333
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px
+}
+
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px
+}
+
+.card {
+    margin-left: 10px;
+    margin-right: 10px
+}
+#id_skills{
+    width: 450px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#id_hobies{
+    width: 450px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#id_your_intro{
+    width: 450px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#id_present_work{
+    width: 450px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#id_graduation_achievements{
+    width: 450px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#id_previous_work{
+    width: 450px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#id_first_name{
+    width: 450px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#id_last_name{
+    width: 450px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#id_mobile{
+    width: 450px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#id_mail{
+    width: 450px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#id_linkedin{
+    width: 450px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#id_github{
+    width: 450px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#id_facebook{
+    width: 450px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#id_present_company{
+    width: 450px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#id_present_role{
+    width: 450px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#id_previous_company{
+    width: 450px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#id_previous_role{
+    width: 450px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+input{
+    background-color: aqua;
+}
+#id_previous_start{
+    width: 450px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#id_previous_end{
+    width: 450px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#id_present_end{
+    width: 450px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#id_present_start{
+    width: 450px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#id_permanent_address{
+    width: 450px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#id_highest_qualification{
+    width: 450px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#id_graduation_year{
+    width: 450px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+#id_institute_name{
+    width: 450px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
