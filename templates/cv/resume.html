@@ -9,7 +9,7 @@
     <title>Resume</title>
 </head>
 <body>
-   <form method="POST" action="{% url 'resume' %}">
+   <form method="POST" action="{% url 'resume' %}" enctype="multipart/form-data">
        {% csrf_token %}
       
    <div class="container"><div class=" text-center mt-5 ">

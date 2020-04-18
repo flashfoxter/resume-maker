@@ -51,6 +51,7 @@ class Resume(models.Model):
     graduation_year = models.CharField(max_length=50,default = '2017-2021')
     institute_name= models.CharField(max_length=50,default = 'IIIT Gwalior')
     graduation_achievements = models.TextField(default=True)
+    your_image = models.FileField(upload_to = 'cv/images/', null = True)
 
 
     date= models.DateTimeField(auto_now_add=True)

@@ -161,3 +161,8 @@ input{
     border-radius: 5px;
     background-color: lightcyan;
 }
+#id_your_image{
+    width: 300px;
+    border-radius: 5px;
+    background-color: lightcyan;
+}

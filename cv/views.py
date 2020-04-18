@@ -5,9 +5,9 @@ from .models import Resume
 
 def resume(request):
     if request.method == "POST":
-        form = ResumeForm(request.POST)
+        form = ResumeForm(request.POST, request.FILES)
         if form.is_valid():
-            resume = Resume(first_name = form.cleaned_data['first_name'], last_name =  form.cleaned_data['last_name'],mobile = form.cleaned_data['mobile'], mail = form.cleaned_data['mail'],linkedin = form.cleaned_data['linkedin'],github = form.cleaned_data['github'],facebook = form.cleaned_data['facebook'],hobies = form.cleaned_data['hobies'],skills = form.cleaned_data['skills'],present_company = form.cleaned_data['present_company'],present_role = form.cleaned_data['present_role'],previous_role = form.cleaned_data['previous_role'],previous_company = form.cleaned_data['previous_company'],your_intro = form.cleaned_data['your_intro'],present_work = form.cleaned_data['present_work'],previous_work = form.cleaned_data['previous_work'])
+            resume = Resume(your_image = form.cleaned_data['your_image'] ,first_name = form.cleaned_data['first_name'], last_name =  form.cleaned_data['last_name'],mobile = form.cleaned_data['mobile'], mail = form.cleaned_data['mail'],linkedin = form.cleaned_data['linkedin'],github = form.cleaned_data['github'],facebook = form.cleaned_data['facebook'],hobies = form.cleaned_data['hobies'],skills = form.cleaned_data['skills'],present_company = form.cleaned_data['present_company'],present_role = form.cleaned_data['present_role'],previous_role = form.cleaned_data['previous_role'],previous_company = form.cleaned_data['previous_company'],your_intro = form.cleaned_data['your_intro'],present_work = form.cleaned_data['present_work'],previous_work = form.cleaned_data['previous_work'])
             resume.save()
             form.save()
             return redirect('/cv/final')
